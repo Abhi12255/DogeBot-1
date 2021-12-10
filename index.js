@@ -1325,7 +1325,7 @@ const serialUser = createSerial(18)
 	        fs.writeFileSync('./database/user/registered.json', JSON.stringify(_registered))
 	        addRegisteredUser(sender, serialUser)
 	         const anuu = `「 *USER REGISTRATION* 」
-*Thank you for registering in the 𝐂𝐡𝐢𝐧𝐭𝐮'𝐬𝐂𝐡𝐢𝐧 𝐁𝐨𝐭 Database*
+*Thank you for registering in the 𝐂𝐡𝐢𝐧𝐭𝐮'𝐬 𝐁𝐨𝐭 Database*
 
 *☂︎ Name :* ${pushname}
 *☂︎ API :* +${sender.split('@')[0]}

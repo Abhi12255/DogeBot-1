@@ -1,5 +1,5 @@
-// Script by Xeon 
-// 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭
+// Script by Abhishek
+// 𝐂𝐡𝐢𝐧𝐭𝐮'𝐬 𝐁𝐨𝐭
 // ©Xeon Bot Incorporated
 const {
   WAConnection: _WAConnection,
@@ -105,10 +105,10 @@ const bgg = fs.readFileSync('./stik/fake.jpeg')
 //// Image ///
 const time2 = moment().tz("Asia/Jakarta").format("HH:mm:ss");
     if (time2 < "24:59:00") {
-      var ucapanWaktu = "Good night";
+      var ucapanWaktu = "Shubh Raatri Dost";
     }
     if (time2 < "19:00:00") {
-      var ucapanWaktu = "Good evening🌞";
+      var ucapanWaktu = "Good evening biro🌞";
     }
     if (time2 < "18:00:00") {
       var ucapanWaktu = "Good afternoon🌄";
@@ -120,7 +120,7 @@ const time2 = moment().tz("Asia/Jakarta").format("HH:mm:ss");
       var ucapanWaktu = "Good morning🌅";
     }
     if (time2 < "05:00:00") {
-      var ucapanWaktu = "Good night🌃";
+      var ucapanWaktu = "Shubh Raatri Dost🌃";
     }
  // BATAS \\
 menusimpel = false
@@ -378,12 +378,12 @@ const checkRegisteredUser = (sender) => {
     if (prefix && command) cmdadd();
     const totalhit = JSON.parse(fs.readFileSync("./lib/totalcmd.json"))[0]
       .totalcmd;
-const daftar1 = `Hi ${pushname} ${ucapanWaktu} \n\nBefore Using the Bot Verify First `
-       const daftar2 = '```Click the button below to verify bro or type 8473\n𝐃𝐨𝐠𝐞 𝐁𝐨𝐭```'
+const daftar1 = `Hi ${pushname} ${ucapanWaktu} \n\nBot use krne se pehle`
+       const daftar2 = '```Verify pe click kr bhai\n𝐁𝐨𝐭```'
        const daftar3 = [
           {
             buttonId: `verify`,
-            buttonText: {
+            buttonTe
               displayText: `Verify`,
             },
             type: 1,
@@ -420,8 +420,8 @@ const timeWib = moment.tz('Asia/Jakarta').format('DD/MM HH:mm:ss')
 cmhit.push(command)
     //MESS
     mess = {
-      wait: "𝙒𝙖𝙞𝙩 𝘼 𝙈𝙞𝙣𝙪𝙩𝙚 シ︎",
-      success: "Success シ︎",
+      wait: "𝐓𝐡𝐨𝐝𝐚 𝐑𝐮𝐤𝐣𝐚",
+      success: "𝐄𝐧𝐣𝐨𝐲",
       wrongFormat: "Wrong format, try again in the menu",
       error: {
         stick: "not that sticker :v",
@@ -947,10 +947,10 @@ xeon.sendMessage(from, teks, text,{contextInfo :{text: 'hi',
 isForwarded: false,
 sendEphemeral: false,
 "externalAdReply": {
-                "title": `Whatsapp-BOT\n𝐃𝐨𝐠𝐞 𝐁𝐨𝐭. (@nnda.krnwn_) •Instagram photos and Videos`,
+                "title": `Whatsapp-BOT\n𝐂𝐡𝐢𝐧𝐭𝐮'𝐬 𝐁𝐨𝐭. (@_ig_escanor) •Instagram photos and Videos`,
                 "body": "",
                 "previewType": "PHOTO",
-                "thumbnailUrl": "https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg",
+                "thumbnailUrl": "https://i.ibb.co/FxL55ZB/Pics-Art-11-13-03-34-22.jpg",
                 "thumbnail": fake,
                 "sourceUrl": ``
 },mentionedJid:[sender]}, quoted : fgif})
@@ -962,12 +962,12 @@ isForwarded: false,
 sendEphemeral: false,
 "externalAdReply": {
                 "title": `Whatsapp`,
-                "body": `wa.me/916909137213`,
+                "body": `wa.me/919411100494`,
                 "mediaType": "10",
-                "mediaUrl": `wa.me/916909137213`,
-                "thumbnailUrl": "https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg",
+                "mediaUrl": `wa.me/919411100494`,
+                "thumbnailUrl": "https://i.ibb.co/FxL55ZB/Pics-Art-11-13-03-34-22.jpg",
                 "thumbnail": iye,
-                "sourceUrl": `wa.me/916909137213`,
+                "sourceUrl": `wa.me/919411100494`,
 },mentionedJid:[sender]}, quoted : mek})
 };
 const fakeyt = (teks) => {
@@ -979,8 +979,8 @@ sendEphemeral: false,
 "title": `Hello ${pushname}` ,
 "body": `${ucapanWaktu}`,
 "mediaType": "2",
-"thumbnailUrl": "https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg",
-"mediaUrl": "https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A",
+"thumbnailUrl": "https://i.ibb.co/FxL55ZB/Pics-Art-11-13-03-34-22.jpg",
+"mediaUrl": "https://www.instagram.com/_ig_escanor/",
 "thumbnail": fs.readFileSync('./stik/thumb.jpeg'),
 "sourceUrl": "",
 },mentionedJid:[sender]}, quoted : fgif})
